@@ -50,11 +50,24 @@ createPath('ng');
        path.href=arr[t];
       }
     }
-    else if(type=="java"){
+    else if(type=="next"){
         console.log('hi')
         document.getElementById("j1").style.background="#DAE5D0";
         document.getElementById("j1").style.border="3px solid #97C48B";
         document.getElementById("j1").style.borderRadius="3px";
+        let arr=["https://replit.com/@KaruppasamyR/Assignment18","https://replit.com/@KaruppasamyR/Ass17#Main.java","https://replit.com/@KaruppasamyR/Ass16#Main.java"]
+        let javasrc=["AG1.png","rec.png","call.jpg"];
+        let names=["Anagram","calculating the area of a rectangle and circle.","Day finder"];
+        for(let t=0;t<3;t++){
+            document.getElementById(id[t]).style.backgroundImage="url('"+javasrc[t]+"')";
+            document.getElementById("name"+(t+1)).style.background="#F9F9F9";
+            document.getElementById(t1[t]).innerText=names[t];
+            let path=document.getElementById(aid[t]);
+            path.href=arr[t];
+           }
+   
+   
+   
     }
     else if(type=="mtd"){
       document.getElementById("mt").style.background="#DAE5D0";
