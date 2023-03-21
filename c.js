@@ -22,8 +22,8 @@ createPath('ng');
     let aid=["link1","link2","link3"];
    
     if(type=="scratch"){
-      document.getElementById("sr").style.background="#FAF5EF";
-      document.getElementById("sr").style.border="1px solid black";
+      document.getElementById("sr").style.background="#DAE5D0";
+      document.getElementById("sr").style.border="3px solid #97C4BB";
       document.getElementById("sr").style.borderRadius="3px";
       console.log("scratch");
       let names=["Fibonacci sequence ","Arithmetic progression ","Stop watch"]
@@ -37,8 +37,8 @@ createPath('ng');
     }
     else if(type=="js"){
       console.log("js")
-      document.getElementById("js").style.background="#FAF5EF";
-      document.getElementById("js").style.border="1px solid black";
+      document.getElementById("js").style.background="#DAE5D0";
+      document.getElementById("js").style.border="3px solid #97C4BB";
       document.getElementById("js").style.borderRadius="3px";
       let names=["Classic nim","Number conversion","Tic Tac Toe"];
       let arr=["https://project-submission.karuppasamyr.repl.co","https://number-convertion.karuppasamyr.repl.co","https://tic-tac-toe.karuppasamyr.repl.co"]; 
@@ -52,13 +52,13 @@ createPath('ng');
     }
     else if(type=="java"){
         console.log('hi')
-        document.getElementById("j1").style.background="#FAF5EF";
-        document.getElementById("j1").style.border="1px solid black";
+        document.getElementById("j1").style.background="#DAE5D0";
+        document.getElementById("j1").style.border="3px solid #97C48B";
         document.getElementById("j1").style.borderRadius="3px";
     }
     else if(type=="mtd"){
-      document.getElementById("mt").style.background="#FAF5EF";
-      document.getElementById("mt").style.border="1px solid black";
+      document.getElementById("mt").style.background="#DAE5D0";
+      document.getElementById("mt").style.border="3px solid #97C48B";
       document.getElementById("mt").style.borderRadius="3px";
       console.log("emtered manual")
       let names=["Book my show","Make my trip","Flipcart"];
@@ -73,8 +73,8 @@ createPath('ng');
     }
     else if(type=="ide"){
       console.log(1234);
-      document.getElementById("side").style.background="#FAF5EF";
-      document.getElementById("side").style.border="1px solid black";
+      document.getElementById("side").style.background="#DAE5D0";
+      document.getElementById("side").style.border="3px solid #97C48B";
       document.getElementById("side").style.borderRadius="3px";
       let idesrc=["sss1.png","fk.png","11aa.png"];
       let names=["Fashoin Website","Flipcart","Maruti Suzuki"];
@@ -89,8 +89,8 @@ createPath('ng');
 
     }
     else if(type=="wd"){
-      document.getElementById("wed").style.background="#FAF5EF";
-      document.getElementById("wed").style.border="1px solid black";
+      document.getElementById("wed").style.background="#DAE5D0";
+      document.getElementById("wed").style.border="3px solid #97C48B";
       document.getElementById("wed").style.borderRadius="3px";
       console.log("entered webdriver");
       let wdsrc=["Elavate.png","insta.jpg","cc1.jpg"];
@@ -106,8 +106,8 @@ createPath('ng');
 
     }
     else if(type=="ng"){
-      document.getElementById("nngg").style.background="#FAF5EF";
-      document.getElementById("nngg").style.border="1px solid black";
+      document.getElementById("nngg").style.background="#DAE5D0";
+      document.getElementById("nngg").style.border="3px solid #97C48B";
       document.getElementById("nngg").style.borderRadius="3px";
       let names=["Google sites","Google classroom and forms","Youtube"];
       let ysrc=["im4.png","gc1.jpg","ytt.png"];
